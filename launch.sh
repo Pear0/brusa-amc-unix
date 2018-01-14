@@ -47,7 +47,7 @@ fi
 # Figure out what the serial config line must be
 
 # This may need to be /dev/cu.* instead of /dev/tty.*
-serial_device=$(ls /dev/tty.* | awk '!/\/dev\/tty\.Bluetooth-Incoming-Port/')
+serial_device=$(find /dev -maxdepth 0 -name 'tty.usbserial*')
 
 num_serial=$(echo $serial_device | wc -l | xargs)
 
