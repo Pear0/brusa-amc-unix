@@ -1,0 +1,10 @@
+Deutsche Version siehe LIESMICH.TXT
+
+Install:
+--------
+To install, you have to copy all the files in a directory (Ex: C:\MONLOG\)
+and start with MONLOG_E.EXE
+
+For Help type: MONLOG /? E  
+
+
