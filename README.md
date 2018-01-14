@@ -23,12 +23,15 @@ This repo contains a template config and `launch.sh` will replace certain specia
 
 Wolftronix has [tested](https://www.youtube.com/watch?v=DD5D5CqYThc&index=6&list=PLQdu_G7xyFIQz7z3yqhWUcRPp7SVei3qV) multiple adapters when connecting through DOSBox on Windows 10 and only one of the 3+ that he has tested works. There is a good chance that adapters compatible with macOS are compatible with Linux and possible other *nixes as well.
 
-| Adapter | Windows | macOS | Linux |
-|---------|---------|-------|-------|
-| CH340   | ✖       | ?     | ?     |
-| Prolific PL2030 | ✖ | ?   | ?     |
-| FTDI D2XX | ✔     | ?     | ?     |
-| Utek UT-980 | ?   | ✔     | ?     |
+| Adapter | Windows 10 | macOS | Linux | Native MS-DOS compat. |
+|---------|------------|-------|-------|-------|
+| CH340   | ✖          | ?     | ?     | ✖     |
+| Prolific PL2030 | ✖  | ?     | ?     | ✔     |
+| FTDI D2XX | ✔        | ?     | ?     | ✔     |
+| Utek UT-980 | ?      | ✔     | ?     | ?     |
 
-Adapters not listed have not been tested and have unknown compatibility.. 
+Windows versions that are 32bit have native MS-DOS compatibility (XP, 32bit Vista, etc) can run `AMC_E.exe` and `MONLOG_E.exe` directly. 
+Windows 10 and any x64 copies of Windows must use DOSBox or another emulator. This is a [hardware limitation](https://www.xylos.com/blog/en/2012/04/legacy-16-bit-applications-on-64-bit-operating-systems/) with x86.
+
+Adapters not listed have not been tested and have unknown compatibility.
 
