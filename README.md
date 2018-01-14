@@ -21,7 +21,7 @@ This repo contains a template config and `launch.sh` will replace certain specia
 
 ## Serial Adapter Compatibility
 
-Wolftronix has [tested](https://www.youtube.com/watch?v=DD5D5CqYThc&index=6&list=PLQdu_G7xyFIQz7z3yqhWUcRPp7SVei3qV) multiple adapters when connecting through DOSBox on Windows 10 and only one of the 3+ that he has tested works. There is a good chance that adapters compatible with macOS are compatible with Linux and possible other *nixes as well.
+Wolftronix has [tested](https://www.youtube.com/watch?v=DD5D5CqYThc&index=6&list=PLQdu_G7xyFIQz7z3yqhWUcRPp7SVei3qV) multiple adapters when connecting through DOSBox on Windows 10 and only one of the 3+ that he has tested work. There is a good chance that adapters compatible with macOS are compatible with Linux and possibly other *nixes as well.
 
 | Adapter | Windows 10 | macOS | Linux | Native MS-DOS compat. |
 |---------|------------|-------|-------|-------|
