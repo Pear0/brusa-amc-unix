@@ -29,8 +29,8 @@ esac
 
 echo "DOSBox Location: $dosbox"
 
-conf_file=$wd/amc325.conf
-real_conf_file=$wd/.amc325.conf-generated
+conf_file=$wd/amc-dosbox.conf
+real_conf_file=$wd/.amc-dosbox.conf-generated
 
 # Basic error checking
 
